@@ -1,5 +1,7 @@
 # Online Title Search API and UI
 
+![image](https://user-images.githubusercontent.com/17073376/115120202-8e664800-9fef-11eb-85a3-389c9ce06eb9.png)
+
 ### Frameworks and Libraries
 
 - ASP.NET Core 3.1
@@ -22,4 +24,4 @@
 - ReSharper
 - GitHub
 
-**Note** Html Agility Pack **_NOT_** used for HTML scraping
+**Note** Html Agility Pack is **_NOT_** used for HTML scraping
