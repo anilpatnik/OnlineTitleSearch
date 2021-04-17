@@ -5,6 +5,6 @@ namespace OTS.Services.Interfaces
 {
     public interface ISearchService
     {
-        Task<Dictionary<string, dynamic>> GetAsync(string keywords);
+        Task<IEnumerable<dynamic>> GetAsync(string keywords);
     }
 }

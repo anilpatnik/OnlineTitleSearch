@@ -1,14 +1,5 @@
 import React, { Fragment } from "react";
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Container,
-  Box,
-  Grid,
-  Button,
-} from "@material-ui/core";
-import { HearderComponent } from "./header.component";
+import { AppBar, Toolbar, Typography, Container, Box, Grid, Button } from "@material-ui/core";
 import { RoutesComponent } from "../routes";
 
 export const App = () => {
@@ -18,7 +9,7 @@ export const App = () => {
         <Toolbar>
           <Grid container direction="row">
             <Grid item xs={6}>
-              <Typography variant="h6">Dingy</Typography>
+              <Typography variant="h6">Info Track</Typography>
             </Grid>
             <Grid item xs={6}>
               <Button
@@ -27,7 +18,7 @@ export const App = () => {
                 disableElevation
                 style={{ float: "right" }}
               >
-                Login
+                Logout
               </Button>
             </Grid>
           </Grid>
@@ -35,7 +26,6 @@ export const App = () => {
       </AppBar>
       <Box mt={5}>
         <Container maxWidth="md">
-          <HearderComponent />
           <RoutesComponent />
         </Container>
       </Box>

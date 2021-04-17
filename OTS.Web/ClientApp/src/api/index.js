@@ -1,3 +1,3 @@
-import * as itemApi from "./item.api";
+import * as searchApi from "./search.api";
 
-export { itemApi };
+export { searchApi };

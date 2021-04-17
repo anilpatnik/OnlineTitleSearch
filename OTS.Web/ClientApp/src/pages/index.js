@@ -1,4 +1,3 @@
-import { ItemListPage } from "./item-list.page";
-import { ItemFormPage } from "./item-form.page";
+import { SearchPage } from "./search.page";
 
-export { ItemListPage, ItemFormPage };
+export { SearchPage };

@@ -22,7 +22,7 @@ namespace OTS.Web.Controllers
         /// <returns>String of numbers</returns>
         [HttpGet]
         [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
-        public async Task<Dictionary<string, dynamic>> GetAsync(string keywords)
+        public async Task<IEnumerable<dynamic>> GetAsync(string keywords)
         {
             return await _searchService.GetAsync(keywords);
         }

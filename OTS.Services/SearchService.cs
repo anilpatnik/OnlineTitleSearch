@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Threading.Tasks;
 using OTS.Services.Interfaces;
@@ -23,11 +24,11 @@ namespace OTS.Services
             _logger = logger;
         }
 
-        public async Task<Dictionary<string, dynamic>> GetAsync(string keywords)
+        public async Task<IEnumerable<dynamic>> GetAsync(string keywords)
         {
             var searchEngines = await _lookupRepository.ListAsync(); // Get the list of search engines from DB
 
-            var response = new Dictionary<string, dynamic>();
+            var response = new List<dynamic>();
             
             if (searchEngines.Any())
             {
@@ -56,7 +57,10 @@ namespace OTS.Services
 
                             if (filteredUrls.Any())
                             {
-                                response.Add(x.Name, string.Join(",", filteredUrls));
+                                dynamic result = new ExpandoObject();
+                                result.SearchEngine = x.Name;
+                                result.RankingOrder = string.Join(", ", filteredUrls);
+                                response.Add(result);
                             }
                         }
                     }
