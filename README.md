@@ -34,7 +34,7 @@
 
 ## React UI
 
-![image](https://user-images.githubusercontent.com/17073376/115120202-8e664800-9fef-11eb-85a3-389c9ce06eb9.png)
+![image](https://user-images.githubusercontent.com/17073376/115121009-dbe4b400-9ff3-11eb-91d7-f688ab6445ae.png)
 
 ## Swagger API
 
