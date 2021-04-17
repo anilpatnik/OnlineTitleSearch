@@ -9,7 +9,7 @@ export const App = () => {
         <Toolbar>
           <Grid container direction="row">
             <Grid item xs={6}>
-              <Typography variant="h6">Info Track</Typography>
+              <Typography variant="h6">Online Title Search</Typography>
             </Grid>
             <Grid item xs={6}>
               <Button
