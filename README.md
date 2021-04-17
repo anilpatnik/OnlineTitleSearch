@@ -1,9 +1,5 @@
 # Online Title Search API and UI
 
-![image](https://user-images.githubusercontent.com/17073376/115120202-8e664800-9fef-11eb-85a3-389c9ce06eb9.png)
-
-![image](https://user-images.githubusercontent.com/17073376/115120234-c3729a80-9fef-11eb-87a6-577f6699e639.png)
-
 ### Frameworks and Libraries
 
 - ASP.NET Core 3.1
@@ -20,6 +16,8 @@
 - Material-UI
 - Formik (Form Validation)
 
+**Note** Html Agility Pack is **_NOT_** used for HTML scraping
+
 ## IDE and Tools
 
 - Visual Studio Code
@@ -29,9 +27,15 @@
 
 ## Build and Run
 
-- Git clone the project (master)
-- Build and Run using Visual Studio 
-- UI opens in browser with https://localhost:44348 (automatically)
-- API opens in browser with https://localhost:44348/swagger (manually)
+1. Git clone the project (master)
+2. Build and Run using Visual Studio 
+3. UI opens in browser with https://localhost:44348 (automatically)
+4. API opens in browser with https://localhost:44348/swagger (manually)
 
-**Note** Html Agility Pack is **_NOT_** used for HTML scraping
+## React UI
+
+![image](https://user-images.githubusercontent.com/17073376/115120202-8e664800-9fef-11eb-85a3-389c9ce06eb9.png)
+
+## Swagger API
+
+![image](https://user-images.githubusercontent.com/17073376/115120234-c3729a80-9fef-11eb-87a6-577f6699e639.png)
