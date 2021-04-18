@@ -1,6 +1,6 @@
 # Online Title Search API and UI
 
-https://github.com/anilpatnik/OnlineTitleSearch/actions/workflows/dotnet.yml/badge.svg  [![codecov](https://codecov.io/gh/anilpatnik/OnlineTitleSearch/branch/master/graph/badge.svg?token=KT68WJ08FW)](https://codecov.io/gh/anilpatnik/OnlineTitleSearch)
+![example workflow](https://github.com/anilpatnik/OnlineTitleSearch/actions/workflows/dotnet.yml/badge.svg)  [![codecov](https://codecov.io/gh/anilpatnik/OnlineTitleSearch/branch/master/graph/badge.svg?token=KT68WJ08FW)](https://codecov.io/gh/anilpatnik/OnlineTitleSearch)
 
 ### Frameworks and Libraries
 
