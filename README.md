@@ -15,8 +15,7 @@
 - React Router 4
 - Material-UI
 - Formik (Form Validation)
-
-**Note** Html Agility Pack is **_NOT_** used for HTML scraping
+- JS Unit Testing (Yet to be added. I prefer E2E UI automation using CodeCeptJS)
 
 ## IDE and Tools
 
@@ -28,9 +27,16 @@
 ## Build and Run
 
 1. Git clone the project (master)
-2. Build and Run using Visual Studio 
+2. Build and Run using Visual Studio (run `npm install` manually, if the client project didn't build automatically)
 3. UI opens in browser with https://localhost:44348 (automatically)
 4. API opens in browser with https://localhost:44348/swagger (manually)
+
+## Note
+
+- Html Agility Pack is **_NOT_** used for HTML scraping
+- The output ranking index might not be the same as it appears on the search results page since no 3rd party tools are being used for HTML scraping
+- Search Engines can be added, updated, removed and queried via Swagger as no UI page is avaiable part of this exercise
+- Architectured using SOLID principles and application development standards
 
 ## React UI
 
