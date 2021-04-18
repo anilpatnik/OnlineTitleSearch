@@ -1,5 +1,12 @@
 # Online Title Search API and UI
 
+[![codecov](https://codecov.io/gh/anilpatnik/OnlineTitleSearch/branch/master/graph/badge.svg?token=KT68WJ08FW)](https://codecov.io/gh/anilpatnik/OnlineTitleSearch)
+
+
+      .. image:: https://codecov.io/gh/anilpatnik/OnlineTitleSearch/branch/master/graph/badge.svg?token=KT68WJ08FW
+      :target: https://codecov.io/gh/anilpatnik/OnlineTitleSearch
+    
+
 ### Frameworks and Libraries
 
 - ASP.NET Core 3.1
