@@ -52,6 +52,7 @@ namespace OTS.RepositoriesTests
             var response = await _lookupRepository.FindByIdAsync(1);
 
             // Assert
+            Assert.AreEqual(1, response.Id);
             Assert.AreEqual("GOOGLE", response.Name.ToUpper());
         }
 
