@@ -1,5 +1,7 @@
 # Online Title Search API and UI
 
+[![codecov](https://codecov.io/gh/anilpatnik/OnlineTitleSearch/branch/master/graph/badge.svg?token=KT68WJ08FW)](https://codecov.io/gh/anilpatnik/OnlineTitleSearch)
+
 ### Frameworks and Libraries
 
 - ASP.NET Core 3.1
@@ -8,7 +10,7 @@
 - Entity Framework In-Memory Provider (Development)
 - Entity Framework Sql Server Provider (Production)
 - Dependency Injection
-- C# Unit Testing (Moq) [![codecov](https://codecov.io/gh/anilpatnik/OnlineTitleSearch/branch/master/graph/badge.svg?token=KT68WJ08FW)](https://codecov.io/gh/anilpatnik/OnlineTitleSearch)
+- C# Unit Testing (Moq) 
 - Swagger (API documentation)
 - React Hooks (16.0 or above)
 - Redux (State Management)
