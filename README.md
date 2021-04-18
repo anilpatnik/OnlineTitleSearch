@@ -39,6 +39,8 @@
 - The output ranking index might not be the same as it appears on the search results page since no 3rd party tools are being used for HTML scraping
 - Search Engines can be added, updated, removed and queried via Swagger as no UI page is avaiable part of this exercise
 - Architectured using SOLID principles and application development standards
+- Code Coverage report can be found by clicking on the **codecov** button on the top
+- Build report can be found by clicking on the **.NET** button on the top (exclude /badge.svg from the URL and hit enter)
 
 ## React UI
 
